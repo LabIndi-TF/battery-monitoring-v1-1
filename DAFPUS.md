@@ -33,6 +33,9 @@ Berikut adalah sumber dari konsep, trik pemrograman, atau kiat menulis yang dipe
     https://stackoverflow.com/questions/29810914/react-js-onclick-cant-pass-value-to-method <br/>
     dan :
     https://stackoverflow.com/questions/27397266/onclick-event-binding-in-react-js/39878181#39878181
+    
+8. Beberapa use case sederhana seputar pustaka Serial milik Arduino : <br />
+    https://forum.arduino.cc/index.php?topic=396450.0
 
 ### Komponen-komponen atau modul yang digunakan
 1. A very lightweight accordion component in React :<br/>
