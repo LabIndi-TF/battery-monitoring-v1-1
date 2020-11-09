@@ -4,6 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Setup Software
 1. Clone (atau download zip)
+2. Buka folder bernama depan arduino-, lalu upload kode tersebut ke Arduino. Cek COM port\* nya, dan sesuaikan pada langkah Setup untuk program sisi node.
 2. Dengan terminal Powershell #1 yang terdapat di dalam VSCode, pada direktori root (yang ada README.md nya - seharusnya tidak perlu diubah bila folder ini yang dibuka di VSCode), ketik ```npm install```
 3. Dengan terminal Powershell #2 (split atau new terminal), pergi ke direktori backend dengan ```cd backend```, lalu ```node node_server.js```
 4. Kembali ke root pada terminal #1 dengan ```cd ../```, lalu ```npm start```
@@ -11,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     Sementara ini, program dibuat untuk single user. Login dengan username "root" dan password "password".
 
 ## Setup Hardware
-1. Pastikan Arduino dengan Battery Monitoring pada kondisi default ada di COM3, dengan baudRate 9600. Jika bukan di COM4, ganti bagian ini di file node_server.js:
+1. Pastikan Arduino dengan Battery Monitoring pada kondisi yang sama dengan (\*), dengan baudRate 9600. Jika bukan di sana, ganti bagian ini di file node_server.js:
     ```
     //deklarasi objek serial
     var portName = "COM3";
